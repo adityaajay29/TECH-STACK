@@ -1,3 +1,13 @@
+body
+{
+    background-color: #1B2430;
+    color: white;
+}
+p
+{
+    font-size: 20px;
+}
+
 .container-fluid {
     padding-top: 70px;
     padding-bottom: 70px;
@@ -11,8 +21,14 @@
     font-size: 12px;
     letter-spacing: 5px;
 }
+
+.navbar-default
+{
+    background-color: #D6D5A8;
+}
+
 .navbar-nav  li a:hover {
-    color: #1abc9c !important;
+    color: #E7AB79 !important;
 }
 
 .footer-padding {
@@ -25,7 +41,7 @@
 	bottom: 0;
 	width: 100%;
 	height: 60px;
-	background-color: #1abc9c;
+	background-color: #E7AB79;
 }
 
 .footer p {
@@ -37,4 +53,9 @@
 .mb-3
 {
     margin-bottom: 2rem;
+}
+
+.contact-content
+{
+    color: #FFDCAE;
 }
