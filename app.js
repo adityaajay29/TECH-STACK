@@ -21,7 +21,7 @@ const mongoose = require("mongoose");
 
 mongoose.connect("mongodb+srv://adityaajay29:Ganesha123@adityacluster.wlqt1.mongodb.net/blogDB?retryWrites=true&w=majority", {useNewUrlParser : true});
 
-const homeStartingContent = "Hey! Welocome to my blog website - One place for all exciting technologies. Here, I post latest dope-techs happening around the world. Any suggestions and updates are most welcome :)";
+const homeStartingContent = "Hey! Welcome to my blog website - One place for all exciting technologies. Here, I post latest dope-techs happening around the world. Any suggestions and updates are most welcome :)";
 const aboutPageContent = "I am Aditya Ajay. A final year B.Tech student of ECE at National Institue of Technology Agartala. I enjoy reading and watching videos about latest happenings in Tech-world. So, I thought of creating this website so that all tech enthusiast can get insight of these technologies at one place!";
 const contactPageContent = "If you have any feedback or you want to contribute some content to this website, then you can contact me via any of these platforms : ";
 
