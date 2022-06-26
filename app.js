@@ -22,10 +22,10 @@ const mongoose = require("mongoose");
 // connecting mongoose to blogDB -----21
 
 // using .env file to hide url and port
-const CONNECTION_URI = process.env.CONNECTION_URI;
+const MONGODB_URI = process.env.MONGODB_URI;
 let port = process.env.PORT;
 
-mongoose.connect(process.env.CONNECTION_URI, {useNewUrlParser : true});
+mongoose.connect(MONGODB_URI, {useNewUrlParser : true});
 
 const homeStartingContent = "Hey! Welcome to my blog website - One place for all exciting technologies. Here, I post latest dope-techs happening around the world. Any suggestions and updates are most welcome :)";
 const aboutPageContent = "I am Aditya Ajay. A final year B.Tech student of ECE at National Institue of Technology Agartala. I enjoy reading and watching videos about latest happenings in Tech-world. So, I thought of creating this website so that all tech enthusiast can get insight of these technologies at one place!";
