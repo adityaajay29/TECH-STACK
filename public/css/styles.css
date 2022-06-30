@@ -40,14 +40,14 @@ p
 	text-align: center;
 	bottom: 0;
 	width: 100%;
-	height: 60px;
+	height: 80px;
 	background-color: #E7AB79;
 }
 
 .footer p {
-	margin-top: 25px;
+	margin-top: 18px;
 	font-size: 12px;
-  color: #fff;
+    color: #1B2430;
 }
 
 .mb-3
@@ -59,7 +59,16 @@ p
 {
     color: #FFDCAE;
 }
+.social-media
+{
+    padding-top: 0.5rem;
+}
 
+.social
+{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
 @media only screen and (min-width : 768px){
     
 }
